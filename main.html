@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fixed p-3 flex w-full top-0 left-0 z-20">
+        <div class="justify-start">
+            <button class="text-gray-1000 py-4 px-5 shadow-large hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+        </div>
+        <div id="menuBar" class="flex w-full">
+            <a href="homepage.html" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Home</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Extinct</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Explore</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Donate</a>
+        </div>
+    </div>
+    <div id="container">
+        <div id="page-name-text" class=" bg-red-600 h-[100vh] w-full">
+            <h1 class="font-bold text-[22vh]/[11vw] pt-40 pl-10">SPECIES</h1>
+            <h1 class="font-bold text-[22vh]/[11vw] pl-10">ON THE BRINK </h1>
+        </div>
+        
+        <div id="whale-page" class="relative h-[100vh] w-full">
+            <div id="whale-info" class="flex mx-7 my-[45px]">
+                <div class="flex">
+                    <figure class="w-[45vw]">
+                        <img data-scroll data-scroll-speed="1" class="object-cover rounded-full" src="navimgs4.jpg" alt="">
+                    </figure>
+                </div>
+                <div id="whale-info-text" class="flex flex-col">
+                    <h1 class="w-[45vh] mt-[100px] ml-20 text-4xl font-bold">This <br> is an image</h1><br>
+                    <p class="ml-20">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum suscipit obcaecati laboriosam id assumenda natus, perferendis architecto ipsa expedita voluptatibus consequatur ratione nam soluta hic sint omnis magnam sapiente aspernatur harum sunt. Ipsa delectus vitae numquam voluptatibus iure ipsam voluptate ratione nesciunt sapiente voluptatum, tenetur nostrum odit, distinctio minima ut?</p>
+                </div>
+            </div>
+        </div>    
+
+        <div id="gecko-page" class="relative h-[100vh] w-full">
+            <div id="gecko-info" class="flex h-[200vh] mx-7 my-[45px]">
+                <div id="gecko-info-text" class="flex flex-col">
+                    <h1 class="w-[45vh] mt-[100px] ml-20 text-4xl font-bold">This <br> is an image</h1><br>
+                    <p class="ml-20">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum suscipit obcaecati laboriosam id assumenda natus, perferendis architecto ipsa expedita voluptatibus consequatur ratione nam soluta hic sint omnis magnam sapiente aspernatur harum sunt. Ipsa delectus vitae numquam voluptatibus iure ipsam voluptate ratione nesciunt sapiente voluptatum, tenetur nostrum odit, distinctio minima ut?</p>
+                </div>
+                <div id="geck-img-box" class="flex">
+                    <figure class="w-[45vw] overflow-hidden">
+                        <img data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="object-cover rounded-full" src="navimgs2.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div id="news-page" class="relative h-[100vh] w-full">
+            <div id="current-news-header">
+                <h1 id="current-news" class="text-9xl ml-20 pb-10">Current news.</h1>
+            </div>
+            <div id="news-swiperdiv" class="relative h-[60vh] m-[-5%]">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex">
+                            <img class="block w-[18%]" src="navimgs2.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs4.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs2.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs4.jpg" alt="">  
+                        </div>
+                        <div class="swiper-slide flex">
+                            <img class="block w-[18%]" src="navimgs2.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs4.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs2.jpg" alt="">
+                            <img class="block w-[18%]" src="navimgs4.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </div>
+
+        <div id="socials-page" class="relative h-[40vh] w-full bg-red-600">
+            <h1>socials</h1>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="map.js"></script>
+</body>
+
+</html>
