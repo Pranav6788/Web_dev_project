@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fixed p-3 flex w-full top-0 left-0 z-20">
+        <div class="justify-start">
+            <button class="text-gray-1000 py-4 px-5 shadow-large hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+        </div>
+        <div id="menuBar" class="flex w-full">
+            <a href="homepage.html" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Home</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Extinct</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Explore</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Donate</a>
+        </div>
+    </div>
+
+    <!-- class="relative bg-red-600" -->
+    <div id="container" class="relative">
+        <div id="history-intro-page-1" class="flex justify-center items-center h-[80vh] w-full">
+            <h1 class="font-bold text-[22vh]/[11vw]">Extinction</h1>
+        </div>
+        <div id="history-intro-page-2" class="flex justify-center items-center h-[80vh] w-full">
+            <h1 class="font-bold text-[22vh]/[11vw]">is forever</h1>
+        </div>
+        <div id="history-intro-page-3" class="flex justify-center items-center h-[80vh] w-full">
+            <div id="history-intro-page-3-copy" class="overflow-hidden">
+                <h1 class="font-bold text-[22vh]/[11vw]">act now</h1>
+            </div>
+        </div>
+        <div id="history-intro-page-4" class="flex flex-col justify-center items-center h-[100vh] w-full">
+            <h1 class="font-bold text-[22vh]/[11vw]">before it's</h1>
+            <h1 class="font-bold text-[22vh]/[11vw]">too late!</h1>
+        </div>
+
+        <div id="map-page" class="relative h-[100vh] ">
+            <div id="location-img" class="absolute flex flex-col items-center  z-20 top-[16vh] left-[18vw]">
+                <a href="https://www.google.com/" target="_blank">North America</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div>  
+            <div id="location-img" class="absolute flex flex-col items-center rotate-[0.3rad] z-20 top-[62vh] left-[29vw]">
+                <a href="https://www.google.com/" target="_blank">South America</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div> 
+            <div id="location-img" class="absolute flex flex-col items-center -rotate-[0.6rad] z-20 top-[29vh] left-[49vw]">
+                <a href="https://www.google.com/" target="_blank">Europe</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div>  
+            <div id="location-img" class="absolute flex flex-col items-center z-20 top-[18vh] left-[71vw]">
+                <a href="https://www.google.com/" target="_blank">Asia</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div>  
+            <div id="location-img" class="absolute flex flex-col items-center rotate-180 z-20 top-[70vh] left-[47vw]">
+                <a href="https://www.google.com/" target="_blank" class="rotate-180">Africa</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div>
+            <div id="location-img" class="absolute flex flex-col items-center rotate-[0.5rad] z-20 top-[73vh] left-[86vw]">
+                <a href="https://www.google.com/" target="_blank">Austrailia</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-[50px] h-[50px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                  </svg>                  
+            </div>
+            
+            <div id="map-wrapper" class="absolute flex flex-col justify-center items-center">
+                <h1 class="font-bold text-[8vh]/[8vw]">Explore the Endangered species</h1>
+                <img src="map.png" id="map-img" class="h-[90vh] w-full">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="map.js"></script>
+</body>
+
+<script>
+</script>
+</html>

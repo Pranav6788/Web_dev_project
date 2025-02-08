@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="fixed p-3 flex w-full top-0 left-0 z-20">
+        <div class="justify-start">
+            <button class="text-gray-1000 py-4 px-5 shadow-large hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+        </div>
+        <div id="menuBar" class="flex w-full">
+            <a href="homepage.html" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Home</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Extinct</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Explore</a>
+            <a href="#null" class="flex text-2xl text-gray-1000 mx-10 px-4 pt-3 hover:bg-gray-900 hover:text-gray-300 hover:font-bold rounded-full">Donate</a>
+        </div>
+    </div> -->
+    <div id="container" class="h-[250vh] w-[100vw]">
+        <div id="slider" class="fixed top-0 h-[100vh] w-[100vw] overflow-hidden">
+            <div id="slide-1" class="bg-red-600 sticky w-[400px] overflow-hidden m-auto top-[25%]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <!-- <div id="slide-2" class="bg-red-600 sticky w-[400px] overflow-hidden top-[50%] left-[30%]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div> -->
+            <!-- <div id="slide-3" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[25vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-4" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[45vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-5" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[25vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-6" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[45vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-7" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[25vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-8" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[45vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-9" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[25vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div>
+            <div id="slide-10" class="bg-red-600 absolute w-[400px] overflow-hidden top-[25vh] left-[45vw]">
+                <div id="slide-text" class="text-center">
+                    <p>This is a slide</p>
+                </div>
+                <div id="slide-img">
+                    <img class="object-cover" src="navimgs4.jpg" alt="">
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="extinct.js"></script>
+</body>
+
+</html>
